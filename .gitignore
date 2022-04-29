@@ -1,0 +1,274 @@
+# Criado por https://www.toptal.com/developers/gitignore/api/python,django,venv
+# Edite em https://www.toptal.com/developers/gitignore?templates=python,django,venv
+
+# ## Django ###
+* .log
+* .pot
+* .pyc
+__pycache__ /
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+meios de comunicação
+
+# Se o seu processo de compilação inclui a execução de collectstatic, você provavelmente não precisa ou deseja incluir staticfiles/
+# em seu repositório Git. Atualize e descomente a linha a seguir de acordo.
+# <django-project-name>/staticfiles/
+
+# ## Pilha Django.Python ###
+# Arquivos compilados por byte / otimizados / DLL
+* .py [ cod ]
+* $py.class
+
+# Extensões C
+* .so
+
+# Distribuição/embalagem
+.Pitão
+construir /
+desenvolver-ovos /
+dist . /
+downloads /
+ovos /
+.ovos /
+lib /
+lib64 /
+peças /
+sdist /
+var /
+rodas /
+compartilhar / rodas python /
+* .egg-info /
+.instalado.cfg
+* .egg
+MANIFESTO
+
+# PyInstaller
+#   Normalmente esses arquivos são escritos por um script python de um template
+#   antes que o PyInstaller construa o exe, para injetar data/outras informações nele.
+* .manifesto
+* .spec
+
+# Logs do instalador
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Teste de unidade / relatórios de cobertura
+htmlcov /
+.tox /
+.nox /
+.cobertura
+.cobertura. *
+.cache
+nariztests.xml
+cobertura.xml
+* .cover
+* .py,capa
+.hipótese /
+.pytest_cache /
+cobrir /
+
+# Traduções
+* .mo
+
+# Coisas do Django:
+
+# Material do frasco:
+instância /
+.webassets-cache
+
+# Coisas de scrap:
+.scrapy
+
+# Documentação da esfinge
+docs / _build /
+
+#PyBuilder _
+.pybuilder /
+alvo /
+
+# Notebook Jupyter
+.ipynb_checkpoints
+
+#IPython _
+profile_default /
+ipython_config.py
+
+#pyenv _
+#    Para uma biblioteca ou pacote, você pode querer ignorar esses arquivos, pois o código é
+#    destinado a ser executado em vários ambientes; caso contrário, verifique-os em:
+# .python-version
+
+# pipenv
+#    De acordo com pypa/pipenv#598, é recomendado incluir Pipfile.lock no controle de versão.
+#    No entanto, em caso de colaboração, se houver dependências ou dependências específicas da plataforma
+#    sem suporte multiplataforma, o pipenv pode instalar dependências que não funcionam ou não
+#    instala todas as dependências necessárias.
+# Pipfile.lock
+
+#poesia _
+#    Semelhante ao Pipfile.lock, geralmente é recomendado incluir poesia.lock no controle de versão.
+#    Isto é especialmente recomendado para pacotes binários para garantir a reprodutibilidade, e é mais
+#    comumente ignorado para bibliotecas.
+#    https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+# poesia.bloqueio
+
+# PEP 582; usado por exemplo github.com/David-OConnor/pyflow
+__pypackages__ /
+
+#Coisas de aipo
+aipo-schedule
+aipo.pid
+
+# Arquivos analisados ​​pelo SageMath
+* .sage.py
+
+# Ambientes
+.env
+.venv
+ambiente /
+venv /
+ENV /
+env.bak /
+venv.bak /
+
+# Configurações do projeto Spyder
+.spyderproject
+.spyproject
+
+# Configurações do projeto de corda
+.ropeproject
+
+# documentação do mkdocs
+/ local
+
+#mypy _
+.mypy_cache /
+.dmypy.json
+dmypy.json
+
+# Verificador de tipo Pyre
+.pyre /
+
+# pytype analisador de tipo estático
+.pytype /
+
+# Símbolos de depuração do Cython
+cython_debug /
+
+#PyCharm _
+#   O modelo específico do JetBrains é mantido em um JetBrains.gitignore separado que pode
+#   pode ser encontrado em https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#   e pode ser adicionado ao gitignore global ou mesclado neste arquivo. Por uma energia mais nuclear
+#   opção (não recomendado) você pode descomentar o seguinte para ignorar toda a pasta de ideias.
+# .ideia/
+
+# ## Python ###
+# Arquivos compilados por byte / otimizados / DLL
+
+# Extensões C
+
+# Distribuição/embalagem
+
+# PyInstaller
+#   Normalmente esses arquivos são escritos por um script python de um template
+#   antes que o PyInstaller construa o exe, para injetar data/outras informações nele.
+
+# Logs do instalador
+
+# Teste de unidade / relatórios de cobertura
+
+# Traduções
+
+# Coisas do Django:
+
+# Material do frasco:
+
+# Coisas de scrap:
+
+# Documentação da esfinge
+
+#PyBuilder _
+
+# Notebook Jupyter
+
+#IPython _
+
+#pyenv _
+#    Para uma biblioteca ou pacote, você pode querer ignorar esses arquivos, pois o código é
+#    destinado a ser executado em vários ambientes; caso contrário, verifique-os em:
+# .python-version
+
+# pipenv
+#    De acordo com pypa/pipenv#598, é recomendado incluir Pipfile.lock no controle de versão.
+#    No entanto, em caso de colaboração, se houver dependências ou dependências específicas da plataforma
+#    sem suporte multiplataforma, o pipenv pode instalar dependências que não funcionam ou não
+#    instala todas as dependências necessárias.
+
+#poesia _
+#    Semelhante ao Pipfile.lock, geralmente é recomendado incluir poesia.lock no controle de versão.
+#    Isto é especialmente recomendado para pacotes binários para garantir a reprodutibilidade, e é mais
+#    comumente ignorado para bibliotecas.
+#    https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+
+# PEP 582; usado por exemplo github.com/David-OConnor/pyflow
+
+#Coisas de aipo
+
+# Arquivos analisados ​​pelo SageMath
+
+# Ambientes
+
+# Configurações do projeto Spyder
+
+# Configurações do projeto de corda
+
+# documentação do mkdocs
+
+#mypy _
+
+# Verificador de tipo Pyre
+
+# pytype analisador de tipo estático
+
+# Símbolos de depuração do Cython
+
+#PyCharm _
+#   O modelo específico do JetBrains é mantido em um JetBrains.gitignore separado que pode
+#   pode ser encontrado em https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#   e pode ser adicionado ao gitignore global ou mesclado neste arquivo. Por uma energia mais nuclear
+#   opção (não recomendado) você pode descomentar o seguinte para ignorar toda a pasta de ideias.
+
+# ## venv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+[ Bb ] em
+[ Ii ] ncluir
+[ Ll ] ib
+[ Ll ] ib64
+[ Ll ] local
+[ Ss ] cripts
+pyvenv.cfg
+pip-selfcheck.json
+
+# Fim de https://www.toptal.com/developers/gitignore/api/python,django,venv
+
+
+# Criado por https://www.toptal.com/developers/gitignore/api/virtualenv
+# Edite em https://www.toptal.com/developers/gitignore?templates=virtualenv
+
+# ## VirtualEnv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Pitão
+[ Bb ] em
+[ Ii ] ncluir
+[ Ll ] ib
+[ Ll ] ib64
+[ Ll ] local
+[ Ss ] cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+# Fim de https://www.toptal.com/developers/gitignore/api/virtualenv
